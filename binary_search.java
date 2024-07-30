@@ -61,7 +61,7 @@ public class binary_search {
                 right = mid - 1;
             }
         }
-        if (found) {
+        if (found==true) {
             System.out.println("Element " + search + " found at position: " + (position + 1));
         } else {
             System.out.println("Element " + search + " is not found in the array.");
